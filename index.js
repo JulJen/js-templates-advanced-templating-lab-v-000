@@ -1,5 +1,5 @@
-function template() {
-  let template = Handlebars.compile(recipeTemplate)
+function template(templateType) {
+  return Handlebars.compile(templateType)
 }
 
 function initForm() {
